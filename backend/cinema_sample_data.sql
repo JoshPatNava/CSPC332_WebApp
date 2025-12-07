@@ -77,3 +77,21 @@ VALUES
 (1, 4, '2025-01-16 18:30:00', '2025-01-16 21:30:00', 'regular'),
 (2, 3, '2025-01-16 21:00:00', '2025-01-16 23:46:00', '3D'),
 (3, 4, '2025-01-17 15:00:00', '2025-01-17 17:28:00', 'regular');
+
+-- SEATS
+INSERT INTO Seat (auditorium_id, row_label, seat_number)
+VALUES
+(1, 'A', 1), (1, 'A', 2), (1, 'A', 3),
+(1, 'B', 1), (1, 'B', 2), (1, 'B', 3),
+
+(2, 'A', 1), (2, 'A', 2), (2, 'A', 3),
+(2, 'B', 1), (2, 'B', 2), (2, 'B', 3),
+
+(3, 'A', 1), (3, 'A', 2), (3, 'A', 3),
+(4, 'A', 1), (4, 'A', 2), (4, 'A', 3);
+
+-- WORKFOR
+INSERT INTO WorkFor (cinema_id, employee_id)
+VALUES
+(1, 1),   -- John works at Downtown Cinema
+(2, 2);   -- Sarah works at Pacific Theatre
