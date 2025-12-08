@@ -1,5 +1,5 @@
-FrequentlyShownMovies VIEW
-Create a VIEW listing all movies shown more than 3 times per day
+-- FrequentlyShownMovies VIEW
+-- Create a VIEW listing all movies shown more than 3 times per day
 
 USE cinema_db;
 
